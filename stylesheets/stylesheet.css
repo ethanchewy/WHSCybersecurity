@@ -5,7 +5,7 @@ body {
   color: #eaeaea;
   font: 16px;
   line-height: 1.5;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 }
 
 /* General & 'Reset' Stuff */
@@ -48,7 +48,7 @@ header h1 {
   line-height: 1.5;
   margin: 0 0 0 -40px;
   font-weight: bold;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   color: #b5e853;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
                0 0 5px rgba(181, 232, 83, 0.1),
@@ -87,7 +87,7 @@ section img {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: normal;
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   color: #b5e853;
   letter-spacing: -0.03em;
   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1),
@@ -135,7 +135,7 @@ ul li {
 
 ul li:before {
   content: ">>";
-  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  font-family: font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
   font-size: 13px;
   color: #b5e853;
   margin-left: -37px;
@@ -247,3 +247,29 @@ a {
 }
 
 /* heart stuff */
+/* heart stuff */
+@keyframes beat{
+  0%{
+    transform: scale(1)
+  }
+  50%{
+    transform: scale(2)
+  }
+  100%{
+    transform: scale(1)
+  }
+}
+
+#heart{
+  color: blue;
+  -webkit-transition: all 1s cubic-bezier(.66,-0.48,.41,1.76);
+  -moz-transition: all 1s cubic-bezier(.66,-0.48,.41,1.76);
+  -o-transition: all 1s cubic-bezier(.66,-0.48,.41,1.76);
+  transition: all 1s cubic-bezier(.66,-0.48,.41,1.76);
+}
+
+#heart:hover{
+  color: red;
+  transform:scale(1.3);
+  animation: beat 4s infinite ease;
+}

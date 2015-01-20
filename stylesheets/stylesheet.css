@@ -247,8 +247,6 @@ a {
 }
 
 /* heart stuff */
-/* Most of the heart's CSS came from the Shapes of CSS  */
-/* http://css-tricks.com/examples/ShapesOfCSS/          */
 .heart {
   position: relative;
   width: 100%;
@@ -289,8 +287,8 @@ a {
   width: 50%;
   height: 80%;
   background: red;
-/*  -moz-border-radius: 50px 50px 0 0;
-  border-radius: 50px 50px 0 0; */
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0; 
   -webkit-transform: rotate(-45deg);
      -moz-transform: rotate(-45deg);
       -ms-transform: rotate(-45deg);

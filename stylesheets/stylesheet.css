@@ -249,9 +249,9 @@ a {
 /* heart stuff */
 .heart {
   position: relative;
-  width: 100px;
-  height: 90px;
-  margin: 30px;
+  width: 25px;
+  height: 22.5px;
+  margin: 7.5px;
   
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -282,10 +282,10 @@ a {
 .heart:after { 
   position: absolute; 
   content: "";
-  left: 50px;
+  left: 12.5px;
   top: 0;
-  width: 50px;
-  height: 80px;
+  width: 12.5px;
+  height: 20px;
   background: red;
   -moz-border-radius: 50px 50px 0 0;
   border-radius: 50px 50px 0 0; 
